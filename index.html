@@ -1,11 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>My First Web Page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feliz Cumpleaños</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <p>Welcome to my first website.</p>
+  <div class="particles" id="particles"></div>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="hero-label">con todo el cariño del mundo</p>
+      <h1 class="hero-title" id="hero-title">Feliz Cumpleaños,<br><span id="hero-name">Nicole</span></h1>
+      <p class="hero-date" id="hero-date">19 de mayo, 2026</p>
+      <div class="hero-divider">
+        <span></span><span class="diamond">◆</span><span></span>
+      </div>
+      <p class="hero-count" id="hero-count">0 personas te escribieron hoy</p>
+    </div>
+  </header>
+
+  <section class="admin-section" id="admin-section">
+    <div class="admin-toggle-bar">
+      <button class="btn-toggle" id="btn-toggle-admin" onclick="toggleAdmin()">
+        <span class="btn-toggle-icon">+</span> Agregar mensaje
+      </button>
+    </div>
+
+    <div class="admin-panel" id="admin-panel">
+      <div class="admin-grid">
+        <div class="form-group">
+          <label>Nombre de la cumpleañera</label>
+          <input type="text" id="inp-name" placeholder="Ej: Nicole" value="Nicole" oninput="updateHero()" />
+        </div>
+        <div class="form-group">
+          <label>Fecha especial</label>
+          <input type="text" id="inp-date" placeholder="Ej: 19 de mayo, 2026" value="19 de mayo, 2026" oninput="updateHero()" />
+        </div>
+        <div class="form-group">
+          <label>Nombre de quien escribe</label>
+          <input type="text" id="inp-sender" placeholder="Ej: Mamá" />
+        </div>
+        <div class="form-group">
+          <label>Relación (opcional)</label>
+          <input type="text" id="inp-relation" placeholder="Ej: Tu mamá que te adora" />
+        </div>
+        <div class="form-group full-width">
+          <label>Mensaje</label>
+          <textarea id="inp-msg" placeholder="Escribe aquí el mensaje con todo el cariño..."></textarea>
+        </div>
+        <div class="form-group">
+          <label>Emoji de la tarjeta</label>
+          <select id="inp-emoji">
+            <option value="💖">💖 Corazón</option>
+            <option value="🌸">🌸 Flor</option>
+            <option value="⭐">⭐ Estrella</option>
+            <option value="🎉">🎉 Celebración</option>
+            <option value="🌈">🌈 Arcoíris</option>
+            <option value="🦋">🦋 Mariposa</option>
+            <option value="🌙">🌙 Luna</option>
+            <option value="🎶">🎶 Música</option>
+            <option value="🌺">🌺 Hibisco</option>
+            <option value="✨">✨ Destellos</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Color de la tarjeta</label>
+          <select id="inp-color">
+            <option value="rose">Rosa</option>
+            <option value="mint">Verde menta</option>
+            <option value="sky">Azul cielo</option>
+            <option value="gold">Dorado suave</option>
+            <option value="lavender">Lavanda</option>
+            <option value="peach">Melocotón</option>
+          </select>
+        </div>
+      </div>
+      <div class="admin-actions">
+        <button class="btn-primary" onclick="addCard()">Agregar tarjeta</button>
+        <button class="btn-secondary" onclick="toggleAdmin()">Cancelar</button>
+      </div>
+    </div>
+  </section>
+
+  <main class="cards-section">
+    <div class="cards-grid" id="cards-grid"></div>
+    <p class="empty-state" id="empty-state">
+      Aún no hay mensajes.<br>¡Agrega el primero con el botón de arriba!
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <p>Hecho con amor &nbsp;◆&nbsp; <span id="footer-name">Tus seres queridos</span></p>
+  </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
