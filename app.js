@@ -1,7 +1,6 @@
-let cardId = 1;
 let cards = [
   {
-    id: cardId,
+    id: 1,
     sender: "Persona 1",
     relation: "Te estima mucho",
     msg: "Mensaje de feliz cumpleaños",
@@ -30,10 +29,7 @@ function createParticles() {
 }
 
 function updateHero() {
-  const name = document.getElementById("inp-name").value.trim() || "Nicole";
-  const date = document.getElementById("inp-date").value.trim() || "";
-  document.getElementById("hero-name").textContent = name;
-  document.getElementById("hero-date").textContent = date;
+  document.getElementById("hero-date").textContent = new Date().toLocaleDateString("es-ES", { day: "numeric", month: "long", year: "numeric" });
   updateCounter();
 }
 
@@ -43,44 +39,13 @@ function updateCounter() {
   const label = n === 0
     ? "Sé la primera persona en escribirle"
     : n === 1
-    ? `tenemos 1 mensajes para ${name}, espero te gusten `
-    : `tenemos ${n} mensajes para ${name}, espero te gusten`;
+      ? `tenemos 1 mensajes para ${name}, espero te gusten `
+      : `tenemos ${n} mensajes para ${name}, espero te gusten`;
   document.getElementById("hero-count").textContent = label;
 }
 
-async function addCard() {
-  const sender   = document.getElementById("inp-sender").value.trim();
-  const relation = document.getElementById("inp-relation").value.trim();
-  const msg      = document.getElementById("inp-msg").value.trim();
-  const emoji    = document.getElementById("inp-emoji").value;
-  const color    = document.getElementById("inp-color").value;
-
-  if (!sender || !msg) {
-    alert("Por favor escribe el nombre y el mensaje.");
-    return;
-  }
-
-  cardId++;
-  cards.push({ cardId, sender, relation, msg, emoji, color });
-
-  // Limpiar formulario
-  document.getElementById("inp-sender").value   = "";
-  document.getElementById("inp-relation").value = "";
-  document.getElementById("inp-msg").value      = "";
-
-  render();
-  toggleAdmin();
-  document.getElementById("cards-grid").scrollIntoView({ behavior: "smooth", block: "start" });
-}
-
-function deleteCard(id) {
-  if (!confirm("¿Eliminar este mensaje?")) return;
-  cards = cards.filter(c => c.id !== id);
-  render();
-}
-
 function render() {
-  const grid       = document.getElementById("cards-grid");
+  const grid = document.getElementById("cards-grid");
   const emptyState = document.getElementById("empty-state");
 
   if (cards.length === 0) {
