@@ -35,12 +35,9 @@ function updateHero() {
 
 function updateCounter() {
   const n = cards.length;
-  const name = document.getElementById("inp-name")?.value.trim() || "Nicole";
   const label = n === 0
     ? "Sé la primera persona en escribirle"
-    : n === 1
-      ? `tenemos 1 mensajes para ${name}, espero te gusten `
-      : `tenemos ${n} mensajes para ${name}, espero te gusten`;
+    : `tenemos ${n} mensajes para Nicole, espero te gusten`;
   document.getElementById("hero-count").textContent = label;
 }
 
@@ -58,10 +55,9 @@ function render() {
   emptyState.classList.remove("visible");
   grid.innerHTML = cards.map(c => `
     <div class="msg-card card-color-${c.color}">
-      <button class="card-delete" onclick="deleteCard(${c.id})" title="Eliminar mensaje">✕</button>
       <span class="card-emoji">${c.emoji}</span>
       <div class="card-sender">${escapeHtml(c.sender)}</div>
-      ${c.relation ? `<div class="card-relation">${escapeHtml(c.relation)}</div>` : ""}
+      <div class="card-relation">${escapeHtml(c.relation)}</div>
       <div class="card-msg">${escapeHtml(c.msg)}</div>
     </div>
   `).join("");
