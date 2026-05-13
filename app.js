@@ -1,12 +1,12 @@
 let cards = [
-  {
+  /* {
     id: 1,
     sender: "Persona 1",
     relation: "Te estima mucho",
     msg: "Mensaje de feliz cumpleaños",
     emoji: "💖",
     color: "rose"
-  }
+  } */
 ];
 
 function createParticles() {
