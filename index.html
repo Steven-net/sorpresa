@@ -24,69 +24,6 @@
     </div>
   </header>
 
-  <section class="admin-section" id="admin-section">
-    <div class="admin-toggle-bar">
-      <button class="btn-toggle" id="btn-toggle-admin" onclick="toggleAdmin()">
-        <span class="btn-toggle-icon">+</span> Agregar mensaje
-      </button>
-    </div>
-
-    <div class="admin-panel" id="admin-panel">
-      <div class="admin-grid">
-        <div class="form-group">
-          <label>Nombre de la cumpleañera</label>
-          <input type="text" id="inp-name" placeholder="Ej: Nicole" value="Nicole" oninput="updateHero()" />
-        </div>
-        <div class="form-group">
-          <label>Fecha especial</label>
-          <input type="text" id="inp-date" placeholder="Ej: 19 de mayo, 2026" value="19 de mayo, 2026" oninput="updateHero()" />
-        </div>
-        <div class="form-group">
-          <label>Nombre de quien escribe</label>
-          <input type="text" id="inp-sender" placeholder="Ej: Mamá" />
-        </div>
-        <div class="form-group">
-          <label>Relación (opcional)</label>
-          <input type="text" id="inp-relation" placeholder="Ej: Tu mamá que te adora" />
-        </div>
-        <div class="form-group full-width">
-          <label>Mensaje</label>
-          <textarea id="inp-msg" placeholder="Escribe aquí el mensaje con todo el cariño..."></textarea>
-        </div>
-        <div class="form-group">
-          <label>Emoji de la tarjeta</label>
-          <select id="inp-emoji">
-            <option value="💖">💖 Corazón</option>
-            <option value="🌸">🌸 Flor</option>
-            <option value="⭐">⭐ Estrella</option>
-            <option value="🎉">🎉 Celebración</option>
-            <option value="🌈">🌈 Arcoíris</option>
-            <option value="🦋">🦋 Mariposa</option>
-            <option value="🌙">🌙 Luna</option>
-            <option value="🎶">🎶 Música</option>
-            <option value="🌺">🌺 Hibisco</option>
-            <option value="✨">✨ Destellos</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label>Color de la tarjeta</label>
-          <select id="inp-color">
-            <option value="rose">Rosa</option>
-            <option value="mint">Verde menta</option>
-            <option value="sky">Azul cielo</option>
-            <option value="gold">Dorado suave</option>
-            <option value="lavender">Lavanda</option>
-            <option value="peach">Melocotón</option>
-          </select>
-        </div>
-      </div>
-      <div class="admin-actions">
-        <button class="btn-primary" onclick="addCard()">Agregar tarjeta</button>
-        <button class="btn-secondary" onclick="toggleAdmin()">Cancelar</button>
-      </div>
-    </div>
-  </section>
-
   <main class="cards-section">
     <div class="cards-grid" id="cards-grid"></div>
     <p class="empty-state" id="empty-state">

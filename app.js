@@ -48,15 +48,6 @@ function updateCounter() {
   document.getElementById("hero-count").textContent = label;
 }
 
-function toggleAdmin() {
-  const panel = document.getElementById("admin-panel");
-  const btn = document.getElementById("btn-toggle-admin");
-  const isOpen = panel.classList.toggle("open");
-  btn.innerHTML = isOpen
-    ? '<span class="btn-toggle-icon">−</span> Cerrar'
-    : '<span class="btn-toggle-icon">+</span> Agregar mensaje';
-}
-
 async function addCard() {
   const sender   = document.getElementById("inp-sender").value.trim();
   const relation = document.getElementById("inp-relation").value.trim();
