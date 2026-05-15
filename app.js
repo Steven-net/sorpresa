@@ -95,6 +95,5 @@ function escapeHtml(text) {
 
 document.addEventListener("DOMContentLoaded", async () => {
   createParticles();
-  updateHero();
   render();
 });
