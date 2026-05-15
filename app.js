@@ -7,6 +7,22 @@ let cards = [
     emoji: "💖",
     color: "rose"
   } */
+    {
+      id:1,
+      sender:"Justin David",
+      relation:"Traductor de mentirosos(amigo)",
+      msg:"Nicol, desde esa vez que dijiste para hacer grupo y sacaste ese cúter, no dude ni una vez que la amistad que se formaría sería la más loca y creo que pura que pueda tener, eres una buena amiga, muchas veces estuviste ahí escuchando jsjsjs.Quiero desearte en este día tan especial un feliz cumpleaños, mereces todo lo bueno, sientete orgullosa de todo lo que has avanzado a pesar de muchas cosas, esas cosas que no cuentas y te las guardas, eres una exelente mujer y una muy buena persona. FELIZ CUMPLEAÑOS 🎂!!!!",
+      emoji:"🎉",
+      color:"mint"
+    },
+    {
+      id:2,
+      sender:"Anibal",
+      relation:"El abuelo de FC",
+      msg:"Nicole, Feliz cumple espero q la pases super en esos días. Que sigas esforzándote como siempre, se admira tu dedicación y empeño q le pones a tus estudios. Una anécdota más loca contigo es los maltratos que propicias a mi pata Steven...Ya suéltalo mano eso es maltrato JAJAJAJAJA. Ya a fin de año q liquide o antes, salimos otra vez para una comida con el grupito, dile a Ethan q se deje de hechar semen en la cabeza.... JAJAJAJA ",
+      emoji:"🎂",
+      color:"sky"
+    }
 ];
 
 function createParticles() {
