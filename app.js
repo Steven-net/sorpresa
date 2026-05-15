@@ -52,11 +52,6 @@ function createParticles() {
   }
 }
 
-function updateHero() {
-  document.getElementById("hero-date").textContent = new Date().toLocaleDateString("es-ES", { day: "numeric", month: "long", year: "numeric" });
-  updateCounter();
-}
-
 function updateCounter() {
   const n = cards.length;
   const label = n === 0
