@@ -9,6 +9,50 @@ let cards = [
   } */
     {
       id:1,
+      sender:"Angela"
+    },
+    {
+      id:2,
+      sender:"Brenda"
+    },
+    {
+      id:3,
+      sender:"Esmeralda"
+    },
+    {
+      id:4,
+      sender:"Mayumi",
+      relation:"Compañera 🤭",
+      msg:"Nicole, hace tiempo que no escribía un mensaje con dedicatoria, pero sabiendo que es para ti, vale totalmente la pena. En todos estos años de amistad, te has vuelto una persona muy importante para mí. Tú sabes lo mucho que te aprecio tanto a ti como a tu amistad.  Me has enseñado tantas cosas sobre lo que significa ser una verdadera amiga. He recibido muchos consejos de tu parte y nunca olvidaré los momentos que hemos pasado juntas, aunque ultimamente quizá no sean tantos, porque estamos en universidades diferentes, pero cada momento contigo es muy significativo para mí.   También quiero que sepas que eres una de las mejores personas que he tenido la fortuna de conocer en la vida. Mil gracias porque cada vez que te he necesitado, siempre has estado para mí, brindándome tu apoyo incondicionalmente. Valoro muchísimo todo lo que haces por mí y la tranquilidad de saber que cuento contigo.   Hoy, que es tu cumpleaños, no me queda más que desearte lo mejor. Sabes que siempre puedes contar conmigo para cualquier cosa que necesites porque yo siempre estaré para ti, nunca dudes de eso.",
+      emoji:"🦋",
+      color:"mint"
+    },
+    {
+      id:5,
+      sender:"Steven",
+      relation:"El que siempre le cae mal ",
+      msg:"Hola sonsa, gracias por estar siempre cnmigo y por enseñarme muchas cosas nuevas, como aprender a comer, eres una maravillosa persona y soy muy afortunado de que me quieras. Sigue adelante y esfuérzate como lo has estado haciendo hasta hoy. Admiro mucho tu forma de ser y en lo enfocada y dedicada que eres al momento de querer algo. Feliz cumpleaños sonsa y espero que este pequeño presente junto a lo que te hice ese día (si todo salió bien) te guste :3",
+      emoji:"💖",
+      color:"gold"
+    },
+    {
+      id:6,
+      sender:"Franco",
+      relation:"Su amigazo",
+      msg:"Nicoooooooole feliz cumpleañoooos 🥳 Espero tengas un bonito día hoy de principio a fin. Eres una persona muy chevere, muy inteligente,  te aprecio un montón. Estoy tranquilo en haberte confiado el puesto como subdele de la burra a ti que eres una chica muy responsable y cumplidora. También contento por haberte regalado la mochila ya que te la merecías, no tengo dudas. Sabes que cuentas conmigo para lo que desees. Espero sigas disfrutando de este día tan bonito y que el dele compre torta sino que ni se aparezca 🤪 Nada más que decir, que sigan los éxitos Nicole 😁😁❗️❗️",
+      emoji:"✨",
+      color:"lavender"
+    },
+    {
+      id:7,
+      sender:"Diego"
+    },
+    {
+      id:8,
+      sender:"Fernando"
+    },
+    {
+      id:9,
       sender:"Justin David",
       relation:"Traductor de mentirosos(amigo)",
       msg:"Nicol, desde esa vez que dijiste para hacer grupo y sacaste ese cúter, no dude ni una vez que la amistad que se formaría sería la más loca y creo que pura que pueda tener, eres una buena amiga, muchas veces estuviste ahí escuchando jsjsjs.Quiero desearte en este día tan especial un feliz cumpleaños, mereces todo lo bueno, sientete orgullosa de todo lo que has avanzado a pesar de muchas cosas, esas cosas que no cuentas y te las guardas, eres una exelente mujer y una muy buena persona. FELIZ CUMPLEAÑOS 🎂!!!!",
@@ -16,7 +60,7 @@ let cards = [
       color:"gold"
     },
     {
-      id:2,
+      id:10,
       sender:"Anibal",
       relation:"El abuelo de FC",
       msg:"Nicole, Feliz cumple espero q la pases super en esos días. Que sigas esforzándote como siempre, se admira tu dedicación y empeño q le pones a tus estudios. Una anécdota más loca contigo es los maltratos que propicias a mi pata Steven...Ya suéltalo mano eso es maltrato JAJAJAJAJA. Ya a fin de año q liquide o antes, salimos otra vez para una comida con el grupito, dile a Ethan q se deje de hechar semen en la cabeza.... JAJAJAJA ",
@@ -24,12 +68,66 @@ let cards = [
       color:"sky"
     },
     {
-      id:3,
+      id:11,
       sender:"Jose",
       relation:"Wawa",
       msg:"¡Feliz cumple, Nicole!  Espero que disfrutes mucho tu día. Eres una gran amiga y una persona increíble. Fue de lo más divertido llevar lab contigo y Justino; ojalá se repita pronto para volver a bajar pepita y, ni qué decir, de esos días de amanecida, aquella ves que fuimos al cine con el código o  al tontito FC, simplemente  diversión pura jsisj ＼(￣▽￣)／   Espero que te haya ido súper bien en los parciales. ¡Un abrazote! (っ.❛ ─ ❛.)っ    P.D.: Piedad con mis cachetes, no los aplastes tan fuerte que me lele... (⁠｡⁠•́⁠︿⁠•̀⁠｡⁠)ゞ*",
       emoji:"⭐",
       color:"rose"
+    },
+    {
+      id:12,
+      sender:"Gonzalo",
+      msg:"Feliz cumpleaños Nicol, te mando un abrazo a la distancia, espero que logres todo lo que te propongas y cumplas tus metas, Att Gonzalo :v",
+      emoji:"🎂",
+      color:"mint"
+    },
+    {
+      id:13,
+      sender:"Fabio",
+      relation:"Compañero de al mejor carrera de la FC xd",
+      msg:"Feliz cumpleaños nicole , que lo pases bonito, que se cumplan todas tus metas y sueños 💪🏻🫡",
+      emoji:"🎉",
+      color:"peach"
+    },
+    {
+      id:14,
+      sender:"Fabricio Yauri",
+      msg:"Desearte un feliz cumpleaños, éxitos y muchos años mas de vida. Golpeando a steven como el good boy que es",
+      emoji:"🎶",
+      color:"lavender"
+    },
+    {
+      id:15,
+      sender:"Leonardo",
+      relation:"Tengo hambre chicos",
+      msg:"Feliz cumpleaños Nicole. Espero que la pases bien, métele dedo a Steven",
+      emoji:"⭐",
+      color:"rose"
+    },
+    {
+      id:16,
+      sender:"Anthonella",
+      relation:"Amiga",
+      msg:"Hola Nicole, me alegro mucho de habernos conocido, eres una persona muy agradable y muy linda, te deseo todo lo mejor, los esfuerzos rinden sus frutos, ten muy bonito dia y feliz cumpleaños 🫂",
+      emoji:"🌙",
+      color:"sky"
+    },
+    {
+      id:17,
+      sender:"Adrian",
+      relation:"Migajero",
+      msg:"Bueno Nicole desearte feliz feliz cumpleañossssss, eres una chica increíble, recuerdo que la primera vez que te vi fue en el examen del curso introductorio xd aunque no me viste creo, pásala chévere, somos compañeros de migajeria, así que pásala suuuuperrr 😜😜😜",
+      emoji:"🎶",
+      color:"peach"
+    },
+    {
+      id:18,
+      sender:"Enrique",
+      relation:"Friend",
+      msg:"Holaaa Nicolee   Feliz Cumpleaños  Espero que la pases o ya lo estés pasando super bien. Parece que te está yendo mejor en la universidad, Justancio me dijo que andas en un concurso de transformers, bien ah. Bueno exitos.  Usen protección, no hagan la Justin classic. 👍😀👍",
+      emoji:"🎉",
+      color:"mint"
     }
 ];
 
