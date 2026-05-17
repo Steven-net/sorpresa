@@ -9,15 +9,24 @@ let cards = [
   } */
     {
       id:1,
-      sender:"Angela"
+      sender:"Angela",
+      msg:"Por escribir",
+      emoji:"💖" ,
+      color:"rose"
     },
     {
       id:2,
-      sender:"Brenda"
+      sender:"Brenda",
+      msg:"Por escribir",
+      emoji:"💖" ,
+      color:"rose"
     },
     {
       id:3,
-      sender:"Esmeralda"
+      sender:"Esmeralda",
+      msg:"Por escribir",
+      emoji:"💖" ,
+      color:"rose"
     },
     {
       id:4,
@@ -45,11 +54,17 @@ let cards = [
     },
     {
       id:7,
-      sender:"Diego"
+      sender:"Diego",
+      msg:"Por escribir",
+      emoji:"💖" ,
+      color:"rose"
     },
     {
       id:8,
-      sender:"Fernando"
+      sender:"Fernando",
+      msg:"Por escribir",
+      emoji:"💖" ,
+      color:"rose"
     },
     {
       id:9,
