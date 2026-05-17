@@ -18,7 +18,7 @@ let cards = [
     {
       id:2,
       sender:"Brenda H.H.",
-      relation:"Pillinas",
+      relation:"Amiga",
       msg:"Hola, Nico. Esto lo escribo el 16 de mayo porque Steven me escribió. No sé si fue solo idea suya o de alguien más, idk, pero ya me imagino tu caraaa JAJAJAJAJA. El sábado que nos vemos ya hablaremos jeje; igual supongo que ahorita debes estar con tu chicle dx. Nico, solo paso a decirte que, dentro de todo, tengas un bonito día y ojalá tu chicle no te haga renegar. Si no, tú avisas y me tomo el intercampus y de una a la UNI. Bueno, volviendo al mensaje, no soy de decir muchas cosas; solo puedo decirte que te quiero mucho y que, cualquier cosa, estoy solo a 1 intercampus jsjsjs. Te juro que cada vez que se acerca tu cumple me acuerdo del Zoro de tamaño real que te regalaron y de cómo lo cargábamos. AY NOOOO, ¡QUÉ CRINGE! Pero lo volvería a hacer para reírnos de nuevo. Así que nada, Nico, disfruta de este día porque el sábado nos perdemos por Miraflores. AY KHE!! JAJAJAJA.  En fin, Nico, ¡feliz cumpleaños! Y salud por ti, para que goces de buena salud, tanto física como mental, y por Yoggi, para que siga contigo muchos años más. Y obviamente tú también: tienes que llegar a los 100 años y más… 101, 102 ya es avaricia dx. Nuevamente, ¡feliz cumpleaños de la manera más genuina posible! <3 (sticker de Zoro con gorrito de cumpleaños).",
       emoji:"💫" ,
       color:"sky"
@@ -26,9 +26,9 @@ let cards = [
     {
       id:3,
       sender:"Esmeralda",
-      relation:"",
-      msg:"Por escribir",
-      emoji:"💖" ,
+      relation:"Amiga",
+      msg:"Nicole ❤️ Quiero desearte un feliz cumpleaños, que sea uno de muchos años más. Eres una chica muy noble, humilde, buena, guapa y súper inteligente… y diría que con mucha paciencia, pero no JAJAJA. Eres de las pocas personas cuya compañía disfruto muchísimo. Contigo ni siquiera hace falta hablar mucho, porque con una mirada ya dices todo, y cuando me mueves las cejas automáticamente me haces reír. Tienes esa forma tan tuya de alegrar los momentos sin darte cuenta. ✨ Nunca dudes del valor que tienes, porque eres una chica increíble. No necesitas de nadie para poder brillar, porque tú sola puedes conseguir todo lo que quieras: el universo y más allá. 💫  Cuentas conmigo en todo momento, sin importar la hora ni el día. He aprendido contigo que la amistad es incondicional, que no importa qué tan triste o feliz estés, siempre estarás ahí para ser parte de todo. De todo corazón, te deseo lo mejor de lo mejor y que todo lo que deseas se te cumpla a devorar mi pillina . ❤️",
+      emoji:"💫" ,
       color:"rose"
     },
     {
@@ -66,10 +66,10 @@ let cards = [
     {
       id:8,
       sender:"Diego",
-      relation:"",
-      msg:"Por escribir",
-      emoji:"💖" ,
-      color:"rose"
+      relation:"Su jefe",
+      msg:"Nicoooooool feliz cumpleañossss, en el poco tiempo de conocernos me haz demostrado que eres una chica increíble, eres estupenda tal y como eres y estoy para apoyarte en lo que necesites mientras esté en mis manos poder hacerlo. Gracias por apoyarme en cosas relacionadas a la burrita, lo valoro mucho. Que tengas un gran día y un año lleno de éxitos! Recuerda que tú puedes siempre con todo!!!",
+      emoji:"🚌" ,
+      color:"sky"
     },
     {
       id:9,
@@ -158,6 +158,22 @@ let cards = [
       msg:"Holaaa Nicolee   Feliz Cumpleaños  Espero que la pases o ya lo estés pasando super bien. Parece que te está yendo mejor en la universidad, Justancio me dijo que andas en un concurso de transformers, bien ah. Bueno exitos.  Usen protección, no hagan la Justin classic. 👍😀👍",
       emoji:"🎉",
       color:"mint"
+    },
+    {
+      id:20,
+      sender:"Ethan",
+      relation:"Amigo",
+      msg:"Que la pase bien, y pueda aprovechar todo lo que tiene (Estaba en depresion en el momento que le pedi xd)",
+      emoji:"🎂",
+      color:"rose"
+    },
+    {
+      id:21,
+      sender:"Fernando",
+      relation:"Arquero del codigo",
+      msg:"Feliz cumpleaños",
+      emoji:"🎂",
+      color:"sky"
     }
 ];
 
