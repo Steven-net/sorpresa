@@ -17,11 +17,11 @@ let cards = [
     },
     {
       id:2,
-      sender:"Brenda",
-      relation:"",
-      msg:"Por escribir",
-      emoji:"💖" ,
-      color:"rose"
+      sender:"Brenda H.H.",
+      relation:"Pillinas",
+      msg:"Hola, Nico. Esto lo escribo el 16 de mayo porque Steven me escribió. No sé si fue solo idea suya o de alguien más, idk, pero ya me imagino tu caraaa JAJAJAJAJA. El sábado que nos vemos ya hablaremos jeje; igual supongo que ahorita debes estar con tu chicle dx. Nico, solo paso a decirte que, dentro de todo, tengas un bonito día y ojalá tu chicle no te haga renegar. Si no, tú avisas y me tomo el intercampus y de una a la UNI. Bueno, volviendo al mensaje, no soy de decir muchas cosas; solo puedo decirte que te quiero mucho y que, cualquier cosa, estoy solo a 1 intercampus jsjsjs. Te juro que cada vez que se acerca tu cumple me acuerdo del Zoro de tamaño real que te regalaron y de cómo lo cargábamos. AY NOOOO, ¡QUÉ CRINGE! Pero lo volvería a hacer para reírnos de nuevo. Así que nada, Nico, disfruta de este día porque el sábado nos perdemos por Miraflores. AY KHE!! JAJAJAJA.  En fin, Nico, ¡feliz cumpleaños! Y salud por ti, para que goces de buena salud, tanto física como mental, y por Yoggi, para que siga contigo muchos años más. Y obviamente tú también: tienes que llegar a los 100 años y más… 101, 102 ya es avaricia dx. Nuevamente, ¡feliz cumpleaños de la manera más genuina posible! <3 (sticker de Zoro con gorrito de cumpleaños).",
+      emoji:"💫" ,
+      color:"sky"
     },
     {
       id:3,
@@ -57,6 +57,14 @@ let cards = [
     },
     {
       id:7,
+      sender:"Cesar",
+      relation:"",
+      msg:"Feliz cumpleaños Vilma ya estás anciana, pasa tus cursos y no procastinees tanto como yo xd",
+      emoji:"🏍️" ,
+      color:"rose"
+    },
+    {
+      id:8,
       sender:"Diego",
       relation:"",
       msg:"Por escribir",
@@ -64,7 +72,7 @@ let cards = [
       color:"rose"
     },
     {
-      id:8,
+      id:9,
       sender:"Fernando",
       relation:"",
       msg:"Por escribir",
@@ -72,7 +80,7 @@ let cards = [
       color:"rose"
     },
     {
-      id:9,
+      id:10,
       sender:"Justin David",
       relation:"Traductor de mentirosos(amigo)",
       msg:"Nicol, desde esa vez que dijiste para hacer grupo y sacaste ese cúter, no dude ni una vez que la amistad que se formaría sería la más loca y creo que pura que pueda tener, eres una buena amiga, muchas veces estuviste ahí escuchando jsjsjs.Quiero desearte en este día tan especial un feliz cumpleaños, mereces todo lo bueno, sientete orgullosa de todo lo que has avanzado a pesar de muchas cosas, esas cosas que no cuentas y te las guardas, eres una exelente mujer y una muy buena persona. FELIZ CUMPLEAÑOS 🎂!!!!",
@@ -80,7 +88,7 @@ let cards = [
       color:"gold"
     },
     {
-      id:10,
+      id:11,
       sender:"Anibal",
       relation:"El abuelo de FC",
       msg:"Nicole, Feliz cumple espero q la pases super en esos días. Que sigas esforzándote como siempre, se admira tu dedicación y empeño q le pones a tus estudios. Una anécdota más loca contigo es los maltratos que propicias a mi pata Steven...Ya suéltalo mano eso es maltrato JAJAJAJAJA. Ya a fin de año q liquide o antes, salimos otra vez para una comida con el grupito, dile a Ethan q se deje de hechar semen en la cabeza.... JAJAJAJA ",
@@ -88,7 +96,7 @@ let cards = [
       color:"sky"
     },
     {
-      id:11,
+      id:12,
       sender:"Jose",
       relation:"Wawa",
       msg:"¡Feliz cumple, Nicole!  Espero que disfrutes mucho tu día. Eres una gran amiga y una persona increíble. Fue de lo más divertido llevar lab contigo y Justino; ojalá se repita pronto para volver a bajar pepita y, ni qué decir, de esos días de amanecida, aquella ves que fuimos al cine con el código o  al tontito FC, simplemente  diversión pura jsisj ＼(￣▽￣)／   Espero que te haya ido súper bien en los parciales. ¡Un abrazote! (っ.❛ ─ ❛.)っ    P.D.: Piedad con mis cachetes, no los aplastes tan fuerte que me lele... (⁠｡⁠•́⁠︿⁠•̀⁠｡⁠)ゞ*",
@@ -96,7 +104,7 @@ let cards = [
       color:"rose"
     },
     {
-      id:12,
+      id:13,
       sender:"Gonzalo",
       relation:"",
       msg:"Feliz cumpleaños Nicol, te mando un abrazo a la distancia, espero que logres todo lo que te propongas y cumplas tus metas, Att Gonzalo :v",
@@ -104,7 +112,7 @@ let cards = [
       color:"mint"
     },
     {
-      id:13,
+      id:14,
       sender:"Fabio",
       relation:"Compañero de al mejor carrera de la FC xd",
       msg:"Feliz cumpleaños nicole , que lo pases bonito, que se cumplan todas tus metas y sueños 💪🏻🫡",
@@ -112,7 +120,7 @@ let cards = [
       color:"peach"
     },
     {
-      id:14,
+      id:15,
       sender:"Fabricio Yauri",
       relation:"",
       msg:"Desearte un feliz cumpleaños, éxitos y muchos años mas de vida. Golpeando a steven como el good boy que es",
@@ -120,7 +128,7 @@ let cards = [
       color:"lavender"
     },
     {
-      id:15,
+      id:16,
       sender:"Leonardo",
       relation:"Tengo hambre chicos",
       msg:"Feliz cumpleaños Nicole. Espero que la pases bien, métele dedo a Steven",
@@ -128,7 +136,7 @@ let cards = [
       color:"rose"
     },
     {
-      id:16,
+      id:17,
       sender:"Anthonella",
       relation:"Amiga",
       msg:"Hola Nicole, me alegro mucho de habernos conocido, eres una persona muy agradable y muy linda, te deseo todo lo mejor, los esfuerzos rinden sus frutos, ten muy bonito dia y feliz cumpleaños 🫂",
@@ -136,7 +144,7 @@ let cards = [
       color:"sky"
     },
     {
-      id:17,
+      id:18,
       sender:"Adrian",
       relation:"Migajero",
       msg:"Bueno Nicole desearte feliz feliz cumpleañossssss, eres una chica increíble, recuerdo que la primera vez que te vi fue en el examen del curso introductorio xd aunque no me viste creo, pásala chévere, somos compañeros de migajeria, así que pásala suuuuperrr 😜😜😜",
@@ -144,7 +152,7 @@ let cards = [
       color:"peach"
     },
     {
-      id:18,
+      id:19,
       sender:"Enrique",
       relation:"Friend",
       msg:"Holaaa Nicolee   Feliz Cumpleaños  Espero que la pases o ya lo estés pasando super bien. Parece que te está yendo mejor en la universidad, Justancio me dijo que andas en un concurso de transformers, bien ah. Bueno exitos.  Usen protección, no hagan la Justin classic. 👍😀👍",
