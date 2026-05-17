@@ -10,6 +10,7 @@ let cards = [
     {
       id:1,
       sender:"Angela",
+      relation:"",
       msg:"Por escribir",
       emoji:"💖" ,
       color:"rose"
@@ -17,6 +18,7 @@ let cards = [
     {
       id:2,
       sender:"Brenda",
+      relation:"",
       msg:"Por escribir",
       emoji:"💖" ,
       color:"rose"
@@ -24,6 +26,7 @@ let cards = [
     {
       id:3,
       sender:"Esmeralda",
+      relation:"",
       msg:"Por escribir",
       emoji:"💖" ,
       color:"rose"
@@ -55,6 +58,7 @@ let cards = [
     {
       id:7,
       sender:"Diego",
+      relation:"",
       msg:"Por escribir",
       emoji:"💖" ,
       color:"rose"
@@ -62,6 +66,7 @@ let cards = [
     {
       id:8,
       sender:"Fernando",
+      relation:"",
       msg:"Por escribir",
       emoji:"💖" ,
       color:"rose"
@@ -93,6 +98,7 @@ let cards = [
     {
       id:12,
       sender:"Gonzalo",
+      relation:"",
       msg:"Feliz cumpleaños Nicol, te mando un abrazo a la distancia, espero que logres todo lo que te propongas y cumplas tus metas, Att Gonzalo :v",
       emoji:"🎂",
       color:"mint"
@@ -108,6 +114,7 @@ let cards = [
     {
       id:14,
       sender:"Fabricio Yauri",
+      relation:"",
       msg:"Desearte un feliz cumpleaños, éxitos y muchos años mas de vida. Golpeando a steven como el good boy que es",
       emoji:"🎶",
       color:"lavender"
