@@ -74,10 +74,10 @@ let cards = [
     {
       id:9,
       sender:"Fernando",
-      relation:"",
-      msg:"Por escribir",
-      emoji:"💖" ,
-      color:"rose"
+      relation:"Amigo de Burra",
+      msg:"¡Feliz cumpleaños, Nicole! 🥳  Nos conocemos poco tiempo sí, pero me has parecido una persona increíble, una buena amiga. Así que espero que la pases bonito en este día especial. Muchas bendiciones y sigue adelante hasta lograr tus metas 😇 ",
+      emoji:"🚌" ,
+      color:"lavender"
     },
     {
       id:10,
