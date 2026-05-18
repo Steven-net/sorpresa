@@ -182,6 +182,14 @@ let cards = [
       msg:"Feliz cumpleaños, Nicol 🎉🍕 Hoy celebro a mi compañera oficial de pizza, risas y buenos momentos. Que este nuevo año te traiga cosas ricas (como una buena pizza bien cargada 😄), alegrías inesperadas y personas que te hagan bien. Gracias por ser tan buena amiga y por compartir esas charlas que siempre saben mejor con algo de comer. Que lo pases increíble hoy y que se cumplan tus deseos.",
       emoji:"🍕",
       color:"peach"
+    },
+    {
+      id:23,
+      sender:"Arnaldo",
+      relation:"Arnaldito planta la spike",
+      msg:"Feliz cumplaños Nicole, espero que la pases increíble en tu día, que se cumplan todos tus deseos y que sigas siendo esa persona tan genial que eres. Gracias por hacer feliz a Steven",
+      emoji:"👻",
+      color:"lavender"
     }
 ];
 
