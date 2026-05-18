@@ -154,7 +154,7 @@ let cards = [
     {
       id:19,
       sender:"Enrique",
-      relation:"Friend",
+      relation:"Yapeo 100 lucas",
       msg:"Holaaa Nicolee   Feliz Cumpleaños  Espero que la pases o ya lo estés pasando super bien. Parece que te está yendo mejor en la universidad, Justancio me dijo que andas en un concurso de transformers, bien ah. Bueno exitos.  Usen protección, no hagan la Justin classic. 👍😀👍",
       emoji:"🎉",
       color:"mint"
@@ -174,6 +174,14 @@ let cards = [
       msg:"Feliz cumpleaños",
       emoji:"🎂",
       color:"sky"
+    },
+    {
+      id:22,
+      sender:"Carlos",
+      relation:"Sin papá",
+      msg:"Feliz cumpleaños, Nicol 🎉🍕 Hoy celebro a mi compañera oficial de pizza, risas y buenos momentos. Que este nuevo año te traiga cosas ricas (como una buena pizza bien cargada 😄), alegrías inesperadas y personas que te hagan bien. Gracias por ser tan buena amiga y por compartir esas charlas que siempre saben mejor con algo de comer. Que lo pases increíble hoy y que se cumplan tus deseos.",
+      emoji:"🍕",
+      color:"peach"
     }
 ];
 
