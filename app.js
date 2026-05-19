@@ -81,6 +81,14 @@ let cards = [
     },
     {
       id:10,
+      sender:"Alex",
+      relation:"Amigo de Burra",
+      msg:"🎁 ¡FELIZ CUMPLEAÑOS NICOLE!  🎂🎉 Espero que hoy sea un bonito día para tí y que la pases súper bien. También quería agradecerte mucho por las veces que te encargaste del viaje en las mañanas cuando no pude ir, valoro mucho tu apoyo y tu disposición. 😊 Todos los buenos deseos en tus planes, proyectos que tengas, y muchos éxitos 💫 🙌🏼",
+      emoji:"🚌" ,
+      color:"mint"
+    },
+    {
+      id:11,
       sender:"Justin David",
       relation:"Traductor de mentirosos(amigo)",
       msg:"Nicol, desde esa vez que dijiste para hacer grupo y sacaste ese cúter, no dude ni una vez que la amistad que se formaría sería la más loca y creo que pura que pueda tener, eres una buena amiga, muchas veces estuviste ahí escuchando jsjsjs.Quiero desearte en este día tan especial un feliz cumpleaños, mereces todo lo bueno, sientete orgullosa de todo lo que has avanzado a pesar de muchas cosas, esas cosas que no cuentas y te las guardas, eres una exelente mujer y una muy buena persona. FELIZ CUMPLEAÑOS 🎂!!!!",
@@ -88,7 +96,7 @@ let cards = [
       color:"gold"
     },
     {
-      id:11,
+      id:12,
       sender:"Anibal",
       relation:"El abuelo de FC",
       msg:"Nicole, Feliz cumple espero q la pases super en esos días. Que sigas esforzándote como siempre, se admira tu dedicación y empeño q le pones a tus estudios. Una anécdota más loca contigo es los maltratos que propicias a mi pata Steven...Ya suéltalo mano eso es maltrato JAJAJAJAJA. Ya a fin de año q liquide o antes, salimos otra vez para una comida con el grupito, dile a Ethan q se deje de hechar semen en la cabeza.... JAJAJAJA ",
@@ -96,7 +104,7 @@ let cards = [
       color:"sky"
     },
     {
-      id:12,
+      id:13,
       sender:"Jose",
       relation:"Wawa",
       msg:"¡Feliz cumple, Nicole!  Espero que disfrutes mucho tu día. Eres una gran amiga y una persona increíble. Fue de lo más divertido llevar lab contigo y Justino; ojalá se repita pronto para volver a bajar pepita y, ni qué decir, de esos días de amanecida, aquella ves que fuimos al cine con el código o  al tontito FC, simplemente  diversión pura jsisj ＼(￣▽￣)／   Espero que te haya ido súper bien en los parciales. ¡Un abrazote! (っ.❛ ─ ❛.)っ    P.D.: Piedad con mis cachetes, no los aplastes tan fuerte que me lele... (⁠｡⁠•́⁠︿⁠•̀⁠｡⁠)ゞ*",
@@ -104,7 +112,7 @@ let cards = [
       color:"rose"
     },
     {
-      id:13,
+      id:14,
       sender:"Gonzalo",
       relation:"",
       msg:"Feliz cumpleaños Nicol, te mando un abrazo a la distancia, espero que logres todo lo que te propongas y cumplas tus metas, Att Gonzalo :v",
@@ -112,7 +120,7 @@ let cards = [
       color:"mint"
     },
     {
-      id:14,
+      id:15,
       sender:"Fabio",
       relation:"Compañero de al mejor carrera de la FC xd",
       msg:"Feliz cumpleaños nicole , que lo pases bonito, que se cumplan todas tus metas y sueños 💪🏻🫡",
@@ -120,7 +128,7 @@ let cards = [
       color:"peach"
     },
     {
-      id:15,
+      id:16,
       sender:"Fabricio Yauri",
       relation:"",
       msg:"Desearte un feliz cumpleaños, éxitos y muchos años mas de vida. Golpeando a steven como el good boy que es",
@@ -128,7 +136,7 @@ let cards = [
       color:"lavender"
     },
     {
-      id:16,
+      id:17,
       sender:"Leonardo",
       relation:"Tengo hambre chicos",
       msg:"Feliz cumpleaños Nicole. Espero que la pases bien, métele dedo a Steven",
@@ -136,7 +144,7 @@ let cards = [
       color:"rose"
     },
     {
-      id:17,
+      id:18,
       sender:"Anthonella",
       relation:"Amiga",
       msg:"Hola Nicole, me alegro mucho de habernos conocido, eres una persona muy agradable y muy linda, te deseo todo lo mejor, los esfuerzos rinden sus frutos, ten muy bonito dia y feliz cumpleaños 🫂",
@@ -144,7 +152,7 @@ let cards = [
       color:"sky"
     },
     {
-      id:18,
+      id:19,
       sender:"Adrian",
       relation:"Migajero",
       msg:"Bueno Nicole desearte feliz feliz cumpleañossssss, eres una chica increíble, recuerdo que la primera vez que te vi fue en el examen del curso introductorio xd aunque no me viste creo, pásala chévere, somos compañeros de migajeria, así que pásala suuuuperrr 😜😜😜",
@@ -152,7 +160,7 @@ let cards = [
       color:"peach"
     },
     {
-      id:19,
+      id:20,
       sender:"Enrique",
       relation:"Yapeo 100 lucas",
       msg:"Holaaa Nicolee   Feliz Cumpleaños  Espero que la pases o ya lo estés pasando super bien. Parece que te está yendo mejor en la universidad, Justancio me dijo que andas en un concurso de transformers, bien ah. Bueno exitos.  Usen protección, no hagan la Justin classic. 👍😀👍",
@@ -160,7 +168,7 @@ let cards = [
       color:"mint"
     },
     {
-      id:20,
+      id:21,
       sender:"Ethan",
       relation:"Amigo",
       msg:"Que la pase bien, y pueda aprovechar todo lo que tiene (Estaba en depresion en el momento que le pedi xd)",
@@ -168,7 +176,7 @@ let cards = [
       color:"rose"
     },
     {
-      id:21,
+      id:22,
       sender:"Fernando",
       relation:"Arquero del codigo",
       msg:"Feliz cumpleaños",
@@ -176,7 +184,7 @@ let cards = [
       color:"sky"
     },
     {
-      id:22,
+      id:23,
       sender:"Carlos",
       relation:"Sin papá",
       msg:"Feliz cumpleaños, Nicol 🎉🍕 Hoy celebro a mi compañera oficial de pizza, risas y buenos momentos. Que este nuevo año te traiga cosas ricas (como una buena pizza bien cargada 😄), alegrías inesperadas y personas que te hagan bien. Gracias por ser tan buena amiga y por compartir esas charlas que siempre saben mejor con algo de comer. Que lo pases increíble hoy y que se cumplan tus deseos.",
@@ -184,7 +192,7 @@ let cards = [
       color:"peach"
     },
     {
-      id:23,
+      id:24,
       sender:"Arnaldo",
       relation:"Arnaldito planta la spike",
       msg:"Feliz cumplaños Nicole, espero que la pases increíble en tu día, que se cumplan todos tus deseos y que sigas siendo esa persona tan genial que eres. Gracias por hacer feliz a Steven",
