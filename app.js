@@ -198,6 +198,14 @@ let cards = [
       msg:"Feliz cumplaños Nicole, espero que la pases increíble en tu día, que se cumplan todos tus deseos y que sigas siendo esa persona tan genial que eres. Gracias por hacer feliz a Steven",
       emoji:"👻",
       color:"lavender"
+    },
+    {
+      id:25,
+      sender:"Ale",
+      relation:"chera de carlitos",
+      msg:"Feliz cumple Nicole, espero q la hayas pasado lindo, disfruta mucho con tu stiven que se a esforzado por ti, lo mínimo pero igual",
+      emoji:"🎂",
+      color:"rose"
     }
 ];
 
